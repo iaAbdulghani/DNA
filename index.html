@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA</title>
+    <link href="styles.css" rel = "stylesheet">
+    <script src ="script.js" defer></script>
+</head>
+<body>
+    <div class="info">
+        <button id="random" >Randomize</button>
+        <input id="length" placeholder="Length" type="number" min="0" max="100000"step="3" >
+        <input placeholder="Chance of Mutation" type="number" min="0" max="1" step=".001" id="chance" >
+        <button id="transcribe" >Transcribe</button>
+        <button id="translate" >Translate</button>
+    </div>
+    <h3>DNA Nucleotides</h3>
+    <div class="holder" id="holder"></div>
+    <h3>RNA Nucleotides</h3>
+    <div class="holder2" id="holder2"></div>
+    <h3>Amino Acids</h3>
+    <div class="holder3" id="holder3"></div>
+    
+</body>
+</html>
